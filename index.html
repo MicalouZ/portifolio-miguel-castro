@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/Nerd.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Manrope:wght@200..800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>This is Miguel Castro</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="./img/Nerd.png" alt="Miguel Logo">
+        <nav>
+            <ul>
+                <li><a href="#apresentacao" class="nav-item">Inicio</a></li>
+                <li><a href="#sobre-mim" class="nav-item">Sobre mim</a></li>
+                <li><a href="#skills" class="nav-item">Skills</a></li>
+                <!--<li><a href="#" class="nav-item">Certificados</a></li>-->
+                <li><a href="#projetos" class="nav-item">Projetos</a></li>
+                <!--<li><a href="#" class="nav-item">Contato</a></li>-->
+            </ul>
+            <label class="header-switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </nav>
+    </header>
+    <section class="container-home container" id="apresentacao">
+        <img src="./img/miguel1.png">
+        <div class="home">
+            <h1 class="container-title">Olá! Sou Miguel</h1>
+            <p>Estou iniciando profissionalmente na
+                <br>
+                carreira de Desenvolvedor Web...
+                <br>
+                Se quiser saber mais sobre mim, fique à vontade!
+            </p>
+        </div>
+        <div>
+            <a href="https://github.com/MicalouZ" class="anchor-item" ><img src="./img/github.svg" alt="Github" id="github"></a>
+            <a href="https://www.linkedin.com/in/miguel-castro-loureiro/" class="anchor-item" ><img src="./img/linkedin.svg" alt="Linkedin" id="linkedin"></a>
+            <!--<a href="#" class="anchor-item" id="discord"><img src="./img/discord.svg" alt="Discord"></a>-->
+        </div>
+    </section>
+
+    <section class="container-about container" id="sobre-mim">
+        <h2 class="container-title">Sobre mim</h2>
+        <div>
+            <div>
+                <img src="img/miguel2.png">
+            </div>
+            <div class="info-div">
+                <h3>Quem sou eu?</h3>
+                <p>Meu nome é Miguel Castro Loureiro, tenho 17 anos, sempre gostei muito de aprender coisas novas e à
+                    alguns anos venho praticando Html, Css e Javascript.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-skills" id="skills">
+        <h2 class="container-title">Skills</h2>
+        <div>
+            <div class="container-card html">
+                <img src="img/html.png">
+                <h2>Html</h2>
+            </div>
+            <div class="container-card css">
+                <img src="img/css.png">
+                <h2>Css</h2>
+            </div>
+            <div class="container-card js">
+                <img src="img/javascript.png">
+                <h2>JavaScript</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-projetos" id="projetos">
+        <h2 class="container-title">Projetos</h2>
+        <div class="container-cards-projeto">
+            <div class="card-projeto">
+                <a href="https://numero-secreto-jogo-beta.vercel.app"><img src="img/Numeros-Secretos.png"></a>
+                <div>
+                    <h2>Número Secreto</h2>
+                    <a href="https://github.com/MicalouZ/numero-secreto-jogo"><img src="img/github.svg"></a>
+                </div>
+            </div>
+            <div class="card-projeto">
+                <a href="https://pomodoro-lista-de-tarefas.vercel.app"><img src="img/pomodoro.png"></a>
+                <div>
+                    <h2>Pomodoro</h2>
+                    <a href="https://github.com/MicalouZ/pomodoro-lista-de-tarefas"><img src="img/github.svg"></a>
+                </div>
+            </div>
+            <div class="card-projeto">
+                <a href="https://compartilhe-seu-projeto.vercel.app"><img src="img/compartilha-projetos.png"></a>
+                <div>
+                    <h2>Compartilha - Projetos</h2>
+                    <a href="https://github.com/MicalouZ/compartilhe-seu-projeto"><img src="img/github.svg"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app/script.js"></script>
+</body>
+
+</html>
